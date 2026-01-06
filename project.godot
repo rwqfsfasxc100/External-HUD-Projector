@@ -1,0 +1,43 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=4
+
+[application]
+
+config/name="External HUD Projector"
+run/main_scene="res://Boot.tscn"
+config/use_custom_user_dir=true
+config/custom_user_dir_name="external_hud_projector"
+config/icon="res://icon.png"
+
+[autoload]
+
+ExternalHUD_Network="*res://networking/Network.gd"
+
+[debug]
+
+gdscript/warnings/unassigned_variable=false
+gdscript/warnings/unused_variable=false
+gdscript/warnings/shadowed_variable=false
+gdscript/warnings/unused_argument=false
+gdscript/warnings/standalone_expression=false
+gdscript/warnings/unused_signal=false
+gdscript/warnings/integer_division=false
+
+[gui]
+
+common/drop_mouse_on_gui_input_disabled=true
+
+[physics]
+
+common/enable_pause_aware_picking=true
+
+[rendering]
+
+environment/default_environment="res://default_env.tres"
