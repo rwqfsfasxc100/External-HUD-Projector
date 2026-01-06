@@ -1,6 +1,6 @@
 # External HUD Projector
 
-This tool is the host program used to display sensor information in tandem when using the External HUD client mod for Delta-V: Rings of Saturn.
+This tool is the host program used to display sensor information in tandem when using the [External HUD client](https://github.com/rwqfsfasxc100/External-HUD-Client) mod for Delta-V: Rings of Saturn.
 
 
 # Installation
